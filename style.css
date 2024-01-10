@@ -32,6 +32,7 @@ header {
   justify-content: space-between;
   align-items: center;
   align-content: center;
+  z-index: 999;
 }
 .headerbutton {
   background-color: #2563eb;
@@ -132,8 +133,24 @@ main {
   margin-bottom: 50px;
 }
 .herocontent{
+  width: 100%;
+  height: 500px;
   font-family: "Yekan Bakh";
-  
+  position: relative;
+}
+.herocontentbg{
+  right: 200PX;
+  position: absolute;
+  width: 700px;
+  height: 450px;
+  background-image: url(./assets/1Artboard\ 1.svg);
+  background-repeat: no-repeat;
+}
+.herocontent H1{
+  color: #25314d;
+  left: 300PX;
+  top:150px;
+  position: absolute;
 }
 /* /// */
 footer {
